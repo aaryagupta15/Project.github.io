@@ -306,10 +306,3 @@ margin: 26px auto;
     font-size: 17px;
     padding: 50px!important;
 }
-
-{
-    @media(max-width:998px){
-        html{
-            font-size:55%;
-        }
-    }
