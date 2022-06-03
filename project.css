@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.photo{
+    background-image: url('https://img.freepik.com/free-photo/flat-lay-woman-style-accessories-red-knitted-sweater-checkered-shirt-denim-jeans-black-leather-boots-hat-autumn-fashion-trend-view-from-vintage-photo-camera-traveler-outfit_285396-5111.jpg?t=st=1654182534~exp=1654183134~hmac=c804828034af7cce347f297595c595521a20fdf36fff349104e3920904a0338d&w=740');
+    background-size: 100% 110%;
+    width:100%;
+    height:100vh;
+}
+
+.navbar{
+    width: 100%;
+    height:100px;
+    background-color: rgba(245, 202, 124, 0.5)
+}
+
+.title{
+    width:10%;
+    line-height: 100px;
+    float: left;
+}
+.title h4{
+    padding-left: 70px;
+    font-weight: bold;
+    color: white;
+    font-size: 22px;
+}
+
+.elements{
+    width: 75%;
+    height: 100px;
+    float: right;
+}
+
+.elements ul{
+    margin-left: 250px;
+}
+
+.elements ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 40px;
+}
+
+.main{
+    width: 100%;
+    margin-top: 110px;
+    text-align: center;
+}
+
+.main h4{
+    font-size: 20px;
+}
+
+.main h1{
+    font-size:50px;
+    margin: 5px 0px;
+}
+
+#be {
+    font-size: 15px;
+}
+
+#indian {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 20px 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height:1.4;
+    text-align:center;
+}
+#indian:hover{
+    color:rgb(194, 131, 13);
+    background: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+#western {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    margin: 20px 5px;
+    padding: 12px 35px;
+    outline: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height:1.4;
+    text-align:center;
+}
+#western:hover{
+    color: rgb(194, 131, 13);
+    background: white;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+/* SEARCH SECTION */
+
+.search{
+        background-color: rgba(245, 202, 124, 0.5);
+    }
+
+.container2 {
+  width: 5rem;
+  height: 100%;
+
+}
+
+.search h2{
+    background:transparent;
+    margin-top: none;
+    color:  #ffa704;
+    width: 600px;
+    font-size: 27px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 350px;
+}
+
+.searchbar {
+  font-size: 2.4rem;
+  margin-bottom: 55px;
+  width: 25rem;
+  height: 0.1px;
+  outline: none;
+  border-radius: 10rem;
+  padding: 2rem;
+  transition: all .1s;
+  transition-delay: .1s;
+  margin-left: 400px;
+}
+.searchbar:hover {
+  width: 27rem;
+  height: 0.2rem;
+}
+.button {
+  height: 2rem;
+  position: absolute;
+  top: 0.1rem;
+  right: 0.1rem;
+  transition: all .1s;
+  transition-delay: .1s;
+}
+.button:hover {
+  cursor: pointer;
+}
+.searchbar:hover + .button {
+  height: 2.5rem;
+  top: 1.8rem;
+  right: 0;
+}
+.searchbar::placeholder {
+  opacity: .3;
+}
+
+/* PRODUCT SECTION */
+
+.product-section{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(245, 202, 124, 0.5);
+}
+
+.container{
+    letter-spacing: 1px;
+ 
+}
+.container h2{
+    background: #ffa704;
+    color: #fff;
+    width: 500px;
+    font-size: 27px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 400px;
+    margin-bottom: 50px;
+}
+
+.col-md-3{
+    padding: 15px;
+}
+
+.product-bottom{
+    text-align: center;
+}
+
+.product-bottom .fas{
+    color: #ffa704;
+}
+
+.product-bottom .far{
+    color: #ffa704;
+}
+
+
+#rupees{
+    color: #434343 !important;
+}
+
+#rupee{
+    color: #434343;
+}
+
+.product-top:hover .overlay{
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+
+
+.product-top:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translate(-20px);
+}
+
+
+/* TESTIMONIAL SECTION */
+
+.testimonials{
+background-color: rgba(245, 202, 124, 0.5);
+padding: 40px 0;
+color: #434343;
+text-align: center;
+}
+
+.inner{
+
+max-width: 1200px;
+
+margin: auto;
+
+overflow: hidden;
+
+padding: 0 20px;
+
+}
+
+.border{
+
+width: 160px;
+
+height: 5px;
+
+background: #ffa704;
+margin: 26px auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+.col{
+    flex:33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonial{
+    background: #fff;
+    padding: 30px;
+}
+
+.testimonial img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars{
+    color: #ffa704;
+    margin-bottom: 20px;
+}
+
+
+.testimonial:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translate(-20px);
+}
+
+/* CONCLUSION */
+
+.conclusion{
+    background-color: rgba(245, 202, 124, 0.5);
+    font-weight:bold;
+    color:#fff;
+    font-size: 17px;
+    padding: 50px!important;
+}
